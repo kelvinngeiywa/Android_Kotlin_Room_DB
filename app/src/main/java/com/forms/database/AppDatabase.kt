@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import com.forms.dao.UserDao
 import com.forms.entities.User
 
-@Database(entities = [User::class], version = 1)
+@Database(entities = [User::class], version = 2)
 abstract class AppDatabase: RoomDatabase() {
     companion object {
         const val NAME = "User_db"
